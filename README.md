@@ -142,22 +142,26 @@ class FullStackDeveloper
 ## 💼 Proyectos Destacados
 
 ### 🏗️ php-mvc-admin-starter
-> Panel de administración listo para producción — MVC, autenticación, permisos granulares y gestión de usuarios
+
+> Panel de administración listo para producción — MVC, autenticación, RBAC granular (roles + permisos), invitaciones por email y dark mode
 
 ![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![Version](https://img.shields.io/badge/v3.2.0-green?style=flat)
+![Version](https://img.shields.io/badge/v3.15.2-green?style=flat)
 
 **Características:**
-- 🔐 Autenticación completa — login, CSRF, anti-session hijacking, Remember Me, timeout de inactividad
-- 👥 Gestión de usuarios — CRUD, imágenes de perfil, activación/desactivación de cuentas
-- 🔑 Permisos granulares por usuario — menú adaptativo según acceso, caché de permisos en sesión
+
+- 🔐 Autenticación completa — login por email o documento, CSRF, anti-session hijacking, Remember Me, timeout de inactividad, bloqueo por fuerza bruta
+- 👥 Gestión de usuarios — CRUD, imágenes de perfil, activación/desactivación, invitación por email (token de 48h → el usuario define su contraseña)
+- 🔑 Roles y permisos granulares — catálogo de roles con CRUD, asignación rol↔permiso, permisos directos por usuario + heredados por rol, menú adaptativo, sin queries extra por check
+- 📋 Audit Log — bitácora de acciones administrativas (login, logout, CRUD de usuarios/roles/permisos), filtrable por módulo/acción/usuario/fecha, export vía DataTables
+- 📊 Dashboard de métricas — gráficos Chart.js (donut, barras, líneas) y stat cards con caché por sesión
+- 🌗 Dark mode — toggle en navbar, persistencia en localStorage, anti-FOUC
 - 📄 Generación de PDF — informes integrados con TCPDF
-- 📦 Sin Composer — autoloader PSR-4 propio; cero dependencias externas
-- 🎨 UI completa — DataTables, Select2, SweetAlert2, Chart.js incluidos
-- 🏗️ Arquitectura MVC clara y lista para extender con nuevos módulos
+- 🏗️ Composer — autoloading PSR-4 propio para `App\*` + dependencias de terceros vía Composer
+- 🎨 UI completa — DataTables, Select2, SweetAlert2, Chart.js, jQuery Validate
 
 ```bash
 git clone https://github.com/Jandres25/php-mvc-admin-starter
@@ -166,19 +170,23 @@ git clone https://github.com/Jandres25/php-mvc-admin-starter
 ---
 
 ### 🔐 Encriptacion_PHP
-> Sistema de autenticación seguro con encriptación de contraseñas y recuperación por email
+
+> Sistema de autenticación seguro con encriptación de contraseñas, recuperación por email y testing automatizado
 
 ![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF0000?style=flat&logo=security&logoColor=white)
-![Version](https://img.shields.io/badge/v1.4.0-blue?style=flat)
+![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
+![Version](https://img.shields.io/badge/v1.13.0-blue?style=flat)
 
 **Características:**
+
 - 🔒 Contraseñas hasheadas con bcrypt (`password_hash` / `password_verify`)
 - 📧 Recuperación de contraseña — tokens de 256 bits, expiración de 1 hora, uso único
 - 🍪 Remember Me — cookie `HttpOnly`/`SameSite=Strict`, token SHA-256 en BD, rotación en cada uso
 - ⏱️ Session Timeout — expiración por inactividad configurable, limpia la cookie de remember automáticamente
 - ⚡ Caché de listado de usuarios — invalidación automática en cada mutación, con fallback sin caché
-- 🏗️ Front controller + OOP — `AuthController`, `UserController`, prepared statements con MySQLi
+- ✅ PHPUnit — integration tests con CI en GitHub Actions
+- 🏗️ Composer + router propio — `AuthController`, `UserController`, prepared statements con PDO
 - 📚 Proyecto de práctica aplicando buenas prácticas de seguridad
 
 ```bash
@@ -197,18 +205,19 @@ git clone https://github.com/Jandres25/Encriptacion_PHP
 
 Mi organización donde construyo soluciones reales para negocios. La mayoría son privados por confidencialidad con los clientes.
 
-| Tipo de solución | Tecnologías |
-|---|---|
-| 💼 Sistemas de gestión empresarial | PHP, MySQL, AdminLTE |
-| 🛒 Plataformas de ventas e inventarios | PHP, MVC, Bootstrap |
-| 📊 Dashboards administrativos | PHP, JS, Charts |
-| 🔧 Soluciones web a medida | Stack personalizado |
-| 🏥 Sistema de Gestión Hospitalaria | PHP 8.2, MariaDB, MVC |
+| Tipo de solución                       | Tecnologías           |
+| -------------------------------------- | --------------------- |
+| 💼 Sistemas de gestión empresarial     | PHP, MySQL, AdminLTE  |
+| 🛒 Plataformas de ventas e inventarios | PHP, MVC, Bootstrap   |
+| 📊 Dashboards administrativos          | PHP, JS, Charts       |
+| 🔧 Soluciones web a medida             | Stack personalizado   |
+| 🏨 Sistemas de gestión hotelera        | PHP 8.2, MariaDB, MVC |
 
 **Proyectos públicos destacados:**
 
 #### Sistema_de_Ventas_PHP
-> Tutorial de sistema de ventas transformado a arquitectura MVC profesional con testing automatizado
+
+> Sistema de Punto de Venta e Inventario — compras a proveedores, POS con facturación PDF y reportes por período
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -216,42 +225,78 @@ Mi organización donde construyo soluciones reales para negocios. La mayoría so
 ![MVC](https://img.shields.io/badge/MVC-Architecture-green?style=flat)
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
+![Version](https://img.shields.io/badge/v1.13.0-blue?style=flat)
 
 **La evolución del proyecto:**
+
 - 📚 **Origen**: Tutorial básico de sistema de ventas
-- 🔄 **Proceso**: Fui refactorizando y mejorando el código
-- 🏗️ **Resultado final**: Estructura MVC clásica implementada
-- 📦 **Composer agregado** para autoloading y dependencias
-- ✅ **PHPUnit 11** — suites Unit e Integration (SQLite in-memory)
-- 🚀 **CI/CD** — GitHub Actions corre los tests en PHP 8.2 y 8.3
+- 🔄 **Proceso**: Refactorizado a arquitectura MVC profesional, con Composer para autoloading y dependencias
+- ✅ **PHPUnit 11** — suites Unit e Integration (SQLite in-memory), CI en GitHub Actions
+- 📦 **MIT** — código abierto
 
 **Características actuales:**
-- 📊 Control de inventario
-- 💰 Gestión de ventas con facturación PDF (TCPDF)
-- 👥 Sistema multiusuario con roles
-- 🎯 Separación clara de responsabilidades (MVC)
+
+- 🛒 POS wizard (Cliente → Carrito → Pago) con facturación PDF (TCPDF)
+- 📦 Compras a proveedores con actualización automática de stock
+- 📊 Control de inventario — alertas de stock bajo, ajustes manuales con historial
+- 📈 Reportes de ventas/compras, top productos y clientes, export PDF/CSV/Excel
+- 📋 Auditoría de operaciones sensibles (eliminaciones, cambios de precio y de rol)
+- 👥 Sistema multiusuario con roles y permisos granulares
+- 📧 Notificaciones por email vía PHPMailer
 
 ```bash
 git clone https://github.com/WorkTeam01/Sistema_de_Ventas_PHP
 ```
 
-#### SistemaReservasHospital
-> Sistema de Gestión Hospitalaria (MVP) — citas médicas, pacientes, doctores y auditoría
+#### HotelFlow
+
+> Sistema integral de gestión hotelera — recepción, habitaciones, servicios, ventas e inventario
 
 ![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
 ![AdminLTE](https://img.shields.io/badge/AdminLTE_3-3C8DBC?style=flat)
-![Version](https://img.shields.io/badge/v1.3.0-blue?style=flat)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
+![Version](https://img.shields.io/badge/v1.0.0-blue?style=flat)
 
 **Características:**
-- 🏥 Wizard de agendamiento de citas — validación de horarios, estados y reprogramación
-- 👨‍⚕️ Gestión de doctores, especialidades y horarios configurables por día e intervalo
-- 🧑‍🤝‍🧑 CRUD de pacientes con historial de citas, búsqueda y paginación
-- 📊 Dashboard con KPIs en tiempo real y gráficos Chart.js filtrados por rol y período
-- 👥 Roles diferenciados — Administrador, Doctor y Recepcionista
-- 📋 Módulo de auditoría — historial completo de acciones sobre citas con exportación
-- 🔐 Login seguro con CSRF, rate limiting y cierre de sesión
-- 🏗️ Arquitectura MVC con PHP Vanilla 8.2, diseño AdminLTE 3 responsive
+
+- 🏨 Gestión de habitaciones por tipo, piso y estado de ocupación
+- 🛎️ Recepción — proceso de check-in/check-out y registro de huéspedes
+- 🛒 Ventas / punto de venta — catálogo de productos con control de stock
+- 📦 Gestión de servicios e inventario
+- 📊 Dashboard con métricas en tiempo real adaptado por rol
+- 👥 Control de acceso basado en roles
+- 🏗️ Arquitectura MVC, PHP 8.2+, MariaDB 10.4+, AdminLTE + Bootstrap 4
+
+```bash
+git clone https://github.com/WorkTeam01/HotelFlow
+```
+
+#### FlowPOS
+
+> Sistema POS open source — ventas, compras, inventario y control por roles
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![AdminLTE](https://img.shields.io/badge/AdminLTE_3-3C8DBC?style=flat)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
+![Version](https://img.shields.io/badge/v1.0.0-blue?style=flat)
+
+**Características:**
+
+- 🛒 Ventas con detalle por ítems y métodos de pago mixtos
+- 📦 Control de inventario — stock, mínimos y máximos
+- 🛍️ Gestión de productos, categorías y clientes
+- 📥 Módulo de compras con actualización automática de stock
+- 👥 Paneles y accesos diferenciados por rol, permisos granulares por usuario
+- 📄 Comprobantes PDF con TCPDF
+- 🏗️ Base reusable de arquitectura MVC clásica sin framework (PHP 7.4+)
+
+```bash
+git clone https://github.com/WorkTeam01/FlowPOS
+```
 
 ---
 
@@ -260,6 +305,7 @@ git clone https://github.com/WorkTeam01/Sistema_de_Ventas_PHP
 Como **FullStack Developer**, construyo aplicaciones web completas desde la base de datos hasta la interfaz de usuario:
 
 ### Backend 🔧
+
 - **PHP**: Arquitectura MVC, PDO, control transaccional, fat models
 - **Databases**: MySQL, MariaDB — diseño, normalización, optimización de queries
 - **Security**: Password hashing (bcrypt), CSRF, XSS prevention, session management, Remember Me
@@ -267,12 +313,14 @@ Como **FullStack Developer**, construyo aplicaciones web completas desde la base
 - **Tools**: Composer, PHPStorm, XAMPP
 
 ### Frontend 🎨
+
 - **UI Frameworks**: AdminLTE 3, Bootstrap 5
 - **Core**: HTML5, CSS3, JavaScript, jQuery
 - **Components**: DataTables, Select2, Chart.js
 - **Design**: Responsive, Mobile-first, UX principles
 
 ### Full Integration 🚀
+
 - Aplicaciones web completas de punta a punta
 - Sistemas administrativos funcionales
 - Dashboards interactivos con reportes
