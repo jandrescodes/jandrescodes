@@ -1,12 +1,12 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:2d6a9f,100:58a6ff&height=220&section=header&text=Jandres25&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=PHP%20FullStack%20Developer%20%7C%20Laravel%20%7C%20Systems%20Engineer&descSize=18&descAlignY=62&descAlign=50&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:2d6a9f,100:58a6ff&height=220&section=header&text=jandrescodes&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=PHP%20FullStack%20Developer%20%7C%20Laravel%20%7C%20Systems%20Engineer&descSize=18&descAlignY=62&descAlign=50&animation=fadeIn)
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PHP+FullStack+Developer;Laravel+Enthusiast;Clean+Code+Advocate;Building+Real+Business+Solutions;SOLID+%26+Design+Patterns;Open+to+Collaborate!&font=Fira+Code&center=true&width=700&height=60&color=58a6ff&vCenter=true&size=22&pause=1000)](https://github.com/Jandres25)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PHP+FullStack+Developer;Laravel+Enthusiast;Clean+Code+Advocate;Building+Real+Business+Solutions;SOLID+%26+Design+Patterns;Open+to+Collaborate!&font=Fira+Code&center=true&width=700&height=60&color=58a6ff&vCenter=true&size=22&pause=1000)](https://github.com/jandrescodes)
 
 </div>
 
@@ -17,11 +17,11 @@
 ```php
 <?php
 
-namespace Jandres25\Profile;
+namespace jandrescodes\Profile;
 
 class FullStackDeveloper
 {
-    public string $name       = 'Jandres25';
+    public string $name       = 'jandrescodes';
     public string $role       = 'PHP FullStack Developer';
     public string $degree     = 'Ingeniero de Sistemas';
     public string $location   = 'Bolivia 🇧🇴';
@@ -111,12 +111,12 @@ class FullStackDeveloper
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Jandres25&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Jandres25&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jandrescodes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Jandres25&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=jandrescodes&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
@@ -124,7 +124,7 @@ class FullStackDeveloper
 ## 🏆 Trofeos
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Jandres25&theme=tokyonight&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=tokyonight&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -133,7 +133,7 @@ class FullStackDeveloper
 
 <div align="center">
 
-[![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=Jandres25&theme=tokyo-night&hide_border=true&area=true&area_color=58a6ff)](https://github.com/Jandres25)
+[![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=jandrescodes&theme=tokyo-night&hide_border=true&area=true&area_color=58a6ff)](https://github.com/jandrescodes)
 
 </div>
 
@@ -164,7 +164,7 @@ class FullStackDeveloper
 - 🎨 UI completa — DataTables, Select2, SweetAlert2, Chart.js, jQuery Validate
 
 ```bash
-git clone https://github.com/Jandres25/php-mvc-admin-starter
+git clone https://github.com/jandrescodes/php-mvc-admin-starter
 ```
 
 ---
@@ -190,7 +190,7 @@ git clone https://github.com/Jandres25/php-mvc-admin-starter
 - 📚 Proyecto de práctica aplicando buenas prácticas de seguridad
 
 ```bash
-git clone https://github.com/Jandres25/Encriptacion_PHP
+git clone https://github.com/jandrescodes/Encriptacion_PHP
 ```
 
 ---
@@ -420,7 +420,7 @@ $exploring = [
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jandres-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jandresml/)
-[![GitHub Personal](https://img.shields.io/badge/GitHub-Jandres25-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jandres25)
+[![GitHub Personal](https://img.shields.io/badge/GitHub-jandrescodes-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jandrescodes)
 [![WorkTeam01](https://img.shields.io/badge/Org-WorkTeam01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WorkTeam01)
 [![Gmail](https://img.shields.io/badge/Email-jandrespb4@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jandrespb4@gmail.com)
 
@@ -436,6 +436,6 @@ $exploring = [
 
 🎓 Ingeniero de Sistemas &nbsp;|&nbsp; 💻 PHP FullStack Developer &nbsp;|&nbsp; 💼 Fundador de @WorkTeam01 &nbsp;|&nbsp; 🇧🇴 Bolivia
 
-⭐️ From [Jandres25](https://github.com/Jandres25) with ❤️
+⭐️ From [jandrescodes](https://github.com/jandrescodes) with ❤️
 
 </div>
