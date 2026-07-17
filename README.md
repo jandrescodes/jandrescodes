@@ -1,12 +1,12 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:2d6a9f,100:58a6ff&height=220&section=header&text=jandrescodes&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=PHP%20FullStack%20Developer%20%7C%20Laravel%20%7C%20Systems%20Engineer&descSize=18&descAlignY=62&descAlign=50&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:4b3f72,100:777BB4&height=220&section=header&text=jandrescodes&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=PHP%20FullStack%20Developer%20%7C%20Laravel%20%7C%20Systems%20Engineer&descSize=18&descAlignY=62&descAlign=50&animation=fadeIn)
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PHP+FullStack+Developer;Laravel+Enthusiast;Clean+Code+Advocate;Building+Real+Business+Solutions;SOLID+%26+Design+Patterns;Open+to+Collaborate!&font=Fira+Code&center=true&width=700&height=60&color=58a6ff&vCenter=true&size=22&pause=1000)](https://github.com/jandrescodes)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=PHP+FullStack+Developer;Laravel+Enthusiast;Clean+Code+Advocate;Building+Real+Business+Solutions;SOLID+%26+Design+Patterns;Open+to+Collaborate!&font=Fira+Code&center=true&width=700&height=60&color=777BB4&vCenter=true&size=22&pause=1000)](https://github.com/jandrescodes)
 
 </div>
 
@@ -111,12 +111,12 @@ class FullStackDeveloper
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jandrescodes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jandrescodes&show_icons=true&theme=dracula&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&title_color=9d8fd1&icon_color=777BB4&ring_color=777BB4&text_color=e0e0e0&bg_color=1a1a2e"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=dracula&hide_border=true&title_color=9d8fd1&text_color=e0e0e0&bg_color=1a1a2e"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=jandrescodes&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=jandrescodes&hide_border=true&background=1a1a2e&border=4b3f72&stroke=4b3f72&ring=777BB4&fire=9d8fd1&currStreakNum=e0e0e0&sideNums=e0e0e0&currStreakLabel=777BB4&sideLabels=9d8fd1&dates=8a8a9e" alt="GitHub Streak" />
 </div>
 
 ---
@@ -124,7 +124,7 @@ class FullStackDeveloper
 ## 🏆 Trofeos
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=tokyonight&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=nord&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -133,7 +133,7 @@ class FullStackDeveloper
 
 <div align="center">
 
-[![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=jandrescodes&theme=tokyo-night&hide_border=true&area=true&area_color=58a6ff)](https://github.com/jandrescodes)
+[![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=jandrescodes&theme=react-dark&hide_border=true&area=true&color=9d8fd1&line=777BB4&point=e0e0e0&area_color=777BB4)](https://github.com/jandrescodes)
 
 </div>
 
@@ -430,7 +430,7 @@ $exploring = [
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:2d6a9f,100:1a1b27&height=120&section=footer&animation=fadeIn)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:777BB4,50:4b3f72,100:1a1a2e&height=120&section=footer&animation=fadeIn)
 
 **"El código limpio siempre parece que fue escrito por alguien a quien le importa."** – Robert C. Martin
 
