@@ -124,7 +124,7 @@ class FullStackDeveloper
 ## 🏆 Trofeos
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=nord&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=dracula&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -145,11 +145,11 @@ class FullStackDeveloper
 
 > Panel de administración listo para producción — MVC, autenticación, RBAC granular (roles + permisos), invitaciones por email y dark mode
 
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![Version](https://img.shields.io/badge/v3.15.2-green?style=flat)
+![Version](https://img.shields.io/badge/v3.16.1-green?style=flat)
 
 **Características:**
 
@@ -173,10 +173,10 @@ git clone https://github.com/jandrescodes/php-mvc-admin-starter
 
 > Sistema de autenticación seguro con encriptación de contraseñas, recuperación por email y testing automatizado
 
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF0000?style=flat&logo=security&logoColor=white)
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
-![Version](https://img.shields.io/badge/v1.13.0-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.14.1-blue?style=flat)
 
 **Características:**
 
@@ -226,7 +226,7 @@ Mi organización donde construyo soluciones reales para negocios. La mayoría so
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.13.0-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.15.0-blue?style=flat)
 
 **La evolución del proyecto:**
 
@@ -253,12 +253,12 @@ git clone https://github.com/WorkTeam01/Sistema_de_Ventas_PHP
 
 > Sistema integral de gestión hotelera — recepción, habitaciones, servicios, ventas e inventario
 
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
-![AdminLTE](https://img.shields.io/badge/AdminLTE_3-3C8DBC?style=flat)
+![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.0.0-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.1.2-blue?style=flat)
 
 **Características:**
 
@@ -280,9 +280,9 @@ git clone https://github.com/WorkTeam01/HotelFlow
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
-![AdminLTE](https://img.shields.io/badge/AdminLTE_3-3C8DBC?style=flat)
+![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.0.0-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.1.4-blue?style=flat)
 
 **Características:**
 
@@ -331,19 +331,17 @@ Como **FullStack Developer**, construyo aplicaciones web completas desde la base
 
 ## 🗺️ Roadmap Personal 2026
 
-```
-✅ PHP Avanzado & MVC Architecture
-✅ MySQL & MariaDB — Diseño de BD
-✅ Git & GitHub — Control de versiones
-✅ Bootstrap & AdminLTE — UI profesional
-✅ Composer & Autoloading PSR-4
-✅ PHPUnit 11 — Testing & TDD
-✅ CI/CD — GitHub Actions (PHP 8.2 y 8.3)
-🔄 Laravel — Eloquent, Blade, Queues, Auth (en progreso)
-⏳ APIs REST — Diseño y consumo
-⏳ Vue.js — Frontend moderno
-⏳ Docker — Contenedores
-```
+- [x] PHP Avanzado & MVC Architecture
+- [x] MySQL & MariaDB — Diseño de BD
+- [x] Git & GitHub — Control de versiones
+- [x] Bootstrap & AdminLTE — UI profesional
+- [x] Composer & Autoloading PSR-4
+- [x] PHPUnit 11 — Testing & TDD
+- [x] CI/CD — GitHub Actions (PHP 8.2 y 8.3)
+- [ ] Laravel — Eloquent, Blade, Queues, Auth *(en progreso)*
+- [ ] APIs REST — Diseño y consumo
+- [ ] Vue.js — Frontend moderno
+- [ ] Docker — Contenedores
 
 ---
 
