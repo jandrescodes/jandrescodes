@@ -111,8 +111,8 @@ class FullStackDeveloper
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jandrescodes&show_icons=true&theme=dracula&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&title_color=9d8fd1&icon_color=777BB4&ring_color=777BB4&text_color=e0e0e0&bg_color=1a1a2e"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=dracula&hide_border=true&title_color=9d8fd1&text_color=e0e0e0&bg_color=1a1a2e"/>
+  <img height="180em" src="https://github-readme-stats-rickstaa.vercel.app/api?username=jandrescodes&show_icons=true&theme=dracula&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&title_color=9d8fd1&icon_color=777BB4&ring_color=777BB4&text_color=e0e0e0&bg_color=1a1a2e"/>
+  <img height="180em" src="https://github-readme-stats-rickstaa.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=dracula&hide_border=true&title_color=9d8fd1&text_color=e0e0e0&bg_color=1a1a2e"/>
 </div>
 
 <div align="center">
