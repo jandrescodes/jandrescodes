@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:4b3f72,100:777BB4&height=220&section=header&text=jandrescodes&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=PHP%20FullStack%20Developer%20%7C%20Laravel%20%7C%20Systems%20Engineer&descSize=18&descAlignY=62&descAlign=50&animation=fadeIn)
+![Header](assets/header.svg)
 
 </div>
 
@@ -111,8 +111,8 @@ class FullStackDeveloper
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-rickstaa.vercel.app/api?username=jandrescodes&show_icons=true&theme=dracula&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&title_color=9d8fd1&icon_color=777BB4&ring_color=777BB4&text_color=e0e0e0&bg_color=1a1a2e"/>
-  <img height="180em" src="https://github-readme-stats-rickstaa.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&theme=dracula&hide_border=true&title_color=9d8fd1&text_color=e0e0e0&bg_color=1a1a2e"/>
+  <img height="165em" src="https://github-readme-stats-nine-nu-63.vercel.app/api?username=jandrescodes&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=false&border_color=4b3f72&bg_color=1a1a2e&title_color=9d8fd1&icon_color=777BB4&text_color=e0e0e0&ring_color=777BB4" alt="Estadísticas de GitHub" />
+  <img height="165em" src="https://github-readme-stats-nine-nu-63.vercel.app/api/top-langs/?username=jandrescodes&layout=compact&langs_count=8&hide_border=false&border_color=4b3f72&bg_color=1a1a2e&title_color=9d8fd1&text_color=e0e0e0" alt="Lenguajes más usados" />
 </div>
 
 <div align="center">
@@ -121,19 +121,11 @@ class FullStackDeveloper
 
 ---
 
-## 🏆 Trofeos
-
-<div align="center">
-  <img src="https://github-trophies.vercel.app/?username=jandrescodes&theme=dracula&row=1&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="GitHub Trophies" />
-</div>
-
----
-
 ## 📈 Actividad Reciente
 
 <div align="center">
 
-[![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=jandrescodes&theme=react-dark&hide_border=true&area=true&color=9d8fd1&line=777BB4&point=e0e0e0&area_color=777BB4)](https://github.com/jandrescodes)
+[![Gráfico de actividad](https://github-readme-activity-graph-rust-sigma.vercel.app/graph?username=jandrescodes&bg_color=1a1a2e&color=9d8fd1&line=777BB4&point=e0e0e0&area=true&area_color=777BB4&hide_border=false&border_color=4b3f72)](https://github.com/jandrescodes)
 
 </div>
 
@@ -338,7 +330,7 @@ Como **FullStack Developer**, construyo aplicaciones web completas desde la base
 - [x] Composer & Autoloading PSR-4
 - [x] PHPUnit 11 — Testing & TDD
 - [x] CI/CD — GitHub Actions (PHP 8.2 y 8.3)
-- [ ] Laravel — Eloquent, Blade, Queues, Auth *(en progreso)*
+- [ ] Laravel — Eloquent, Blade, Queues, Auth _(en progreso)_
 - [ ] APIs REST — Diseño y consumo
 - [ ] Vue.js — Frontend moderno
 - [ ] Docker — Contenedores
@@ -408,7 +400,7 @@ $exploring = [
 ## 🐍 Contribuciones
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/jandrescodes/jandrescodes/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---
@@ -428,7 +420,7 @@ $exploring = [
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:777BB4,50:4b3f72,100:1a1a2e&height=120&section=footer&animation=fadeIn)
+![Footer](assets/footer.svg)
 
 **"El código limpio siempre parece que fue escrito por alguien a quien le importa."** – Robert C. Martin
 
