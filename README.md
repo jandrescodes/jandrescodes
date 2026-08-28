@@ -168,7 +168,7 @@ git clone https://github.com/jandrescodes/php-mvc-admin-starter
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF0000?style=flat&logo=security&logoColor=white)
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
-![Version](https://img.shields.io/badge/v1.14.1-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.14.3-blue?style=flat)
 
 **Características:**
 
@@ -218,7 +218,7 @@ Mi organización donde construyo soluciones reales para negocios. La mayoría so
 ![PHPUnit](https://img.shields.io/badge/PHPUnit-11.x-6C6EAA?style=flat&logo=php&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.15.0-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.16.5-blue?style=flat)
 
 **La evolución del proyecto:**
 
@@ -250,7 +250,7 @@ git clone https://github.com/WorkTeam01/Sistema_de_Ventas_PHP
 ![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.1.2-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.3.0-blue?style=flat)
 
 **Características:**
 
@@ -274,7 +274,7 @@ git clone https://github.com/WorkTeam01/HotelFlow
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
 ![AdminLTE](https://img.shields.io/badge/AdminLTE-3C8DBC?style=flat)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=flat)
-![Version](https://img.shields.io/badge/v1.1.4-blue?style=flat)
+![Version](https://img.shields.io/badge/v1.2.0-blue?style=flat)
 
 **Características:**
 
@@ -282,7 +282,7 @@ git clone https://github.com/WorkTeam01/HotelFlow
 - 📦 Control de inventario — stock, mínimos y máximos
 - 🛍️ Gestión de productos, categorías y clientes
 - 📥 Módulo de compras con actualización automática de stock
-- 👥 Paneles y accesos diferenciados por rol, permisos granulares por usuario
+- 👥 Control de acceso por rol (RBAC) — asignación de permisos por rol desde la UI
 - 📄 Comprobantes PDF con TCPDF
 - 🏗️ Base reusable de arquitectura MVC clásica sin framework (PHP 7.4+)
 
